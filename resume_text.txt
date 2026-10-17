@@ -1,0 +1,134 @@
+Pursuing aMinor DegreeinArtificial Intelligence and Data Scienceoffered byC-MInDS, IIT Bombay
+SCHOLASTIC ACHIEVEMENTS
+•ReceivedAA/AB Gradein11out of14 core coursesin second year, achieving 9.42 SPI in 4th semester(’25-’26)
+•AwardedAcademic Scholarshipsat Shiv Nadar School Noida consecutively in the years 2022, 2023 and 2024
+TECHNICAL EXPERIENCE
+Digital Design Trainee|Cadence Design Systems(May’26-Jul’26)
+Performed Static Timing Analysis and Chip Optimization on clients’ chip designs using industry-grade tools
+•Studied, explored and performedStatic Timing Analysison several digital design Verilogs usingCadence
+Tempus, evaluating delay metrics such assetup-holdviolations, on chip variationsandpath chip pessimism
+•Understoodpropagation delaymore deeply, analysingtransition rates, load capacitancesacross paths,
+latencies,and delay models used in interconnectcell delay calculationssuch asNLDMandCSM models
+•Designed an end-to-endMCP Client-ServerPython Application built on Cadence’s AI Architecture to perform
+fully automated chip design constraint validationusing Cadence’s newly acquiredTimeVision Software
+AI Intern - Sales Automation Pipeline|Shorthills AI(May’25–Jul’25)
+Created an AI-driven sales automation pipeline to increase sales responsiveness, efficiency and engagement
+•Engineered a sales automation system utilizingMCP ServersandLarge Language Model (LLM)agents,
+reducing the sales lead response times from several daysto under 30 secondswhile handling large client volume
+•Integrated personalized interaction workflows to enhance lead engagement, improving overalllead communication
+•Led the design of the algorithm and pipeline architecture, usingApache NiFiandPythonfor flow-based product
+execution withlow latency, high packet handling, and seamless integrationwith multiple APIs and tools
+Electrical Subsystem|IIT Bombay Racing(Jan’25–Apr’26)
+Collaborated with a team of100+students to build a high-performance Electric Race Car for the prestigious Formula
+Student Switzerland and Portugal student race car competitions, organized by the Institution of Mechanical Engineers
+•Designed anextended Kalman Filter ModelonEmbedded Cto predictthe state-of-charge of a 2RC Cell
+Modelin real time, and obtained ahigh accuracyon it in comparison to real SOC values from the accumulator
+•Executedcircular daisy chainon our battery monitoring system, successfully monitoring96 cellssimultaneously
+•Implemented and worked withcommunication protocolslikeISO-SPI, SPI, and CANfor system integration
+KEY PROJECTS
+Real-Time Sobel Edge Detection Accelerator on FPGA|Research Project(May’26–Present)
+Guide: Prof. Debanjan Bhowmik
+•Implemented aSobel edge-detection pipelineinVerilogusingcircular line buffersfor live3×3 windowing,
+with aconvolution enginecomputing edge metric against a threshold for real-timebinary edge classification
+•Validated pixel accuracy against aNumPy-based reference modelonBMP imagesusing a custom testbench
+•Implementing the design onXilinx Vivadofor thePYNQ-Z2board, laying the groundwork forCNN on FPGA
+I2C Device Driver Development on 8051 Microcontroller|Course Project(Mar’26–Apr’26)
+Microprocessors Laboratory | Guide: Prof. Sachin Patkar
+•Wrote bare-metal firmware on an8051-based PT-51board to interface with aBMP280pressure sensor via I2C
+•Developed a customI2C device driverlibrary in C, implementing the protocol-standard Start, Stop, Read, Write,
+Ack, and Nack routines to enablegeneric master-slave communicationwithmulti-purpose I2C devices
+•Interfaced aDS1307 RTCmodule using the driver to fetch, read, and decode BCD-formatted timestamps over
+theI2Cprotocol, displayinglive time and temperatureon the master LCD and streaming them viaUART
+i
+Siddhant Singhania
+Electrical Engineering
+Indian Institute of Technology Bombay
+24B3956
+Dual Degree (B.Tech. + M.Tech.)
+Gender: Male
+DOB:  04/04/2006
+Examination
+University
+Institute
+Year
+CPI / %
+Credits
+Graduation
+IIT Bombay
+IIT Bombay
+2029
+9.24
+Core: 
+136
+ | 
+Total: 
+139
+Intermediate
+Matriculation
+CBSE
+CBSE
+Shiv Nadar School Noida
+Shiv Nadar School Noida
+2024
+2022
+98.40%
+99.20%
+
+
+Digital Logic Design using VHDL|Course Project(Aug’25–Nov’25)
+Digital Circuits Laboratory | Guide: Prof. Saurabh Lodha
+•Designed aRun-Length Encoder-Decoderpair in VHDL with a custom FSM to traverse an 8x8 input matrix
+•Implemented a1024-bit RLE bufferfor lossless compression and row-major reconstruction of the input matrix
+•Simulated, verified, synthesized, and deployedthe design onFPGA hardware, performing pin planning to
+map the 50MHz clock, reset switch, pass/fail LEDs, and I/O constraints using the provided SDC timing constraints
+WashU-2 CPU: 16-bit Accumulator-Based Processor|Course Project(Mar’26–Apr’26)
+Microprocessors | Guide: Prof. V Rajbabu
+•Studied and modified a17-state, multi-cycle 16-bit CPUin VHDL, refining itsfetch-decode-execute cycle
+•EnhancedtheinstructionencodingandALUdesignacrossadiversesetofarithmeticandbranchinginstructions
+•ImplementedALU-FSM logicfor the ADD and BRPOS (Branch-if-Positive) instructions, performing unsigned
+arithmetic, sign-bit/zero-flag condition checks, and authored comprehensiveVHDL testbenchesfor verification
+Phase Sensitive Detection (Lock-in Amplifier)|Course Project(Mar’26–Apr’26)
+Analog Circuits Laboratory | Guide: Prof. Sandip Mondal
+•Designed an op-amp basedall-pass phase shifter, deriving its transfer function and verifying it experimentally
+•Built a switch-basedPhase Sensitive DetectorusingCD4066quad switches driven by complementary CMOS
+square-wave references, rectifying the input signal based on phase, on bothLTSpice simulationandhardware
+•Implemented a first-order activelow-pass filterto extract the DC component from the PSD output, deriving its
+cut-off frequency and verifying the lock-in amplifier output across all tested phase angles, obtaining minimal error
+Solving Coupled Differential Equations on FPGA|Course Project(Aug’25–Nov’25)
+Digital Systems | Guide: Prof. Debanjan Bhowmik
+•DesignedN parallel computational unitsconnected viacommon bus architectureto enable simultaneous
+equation solving and implementedEuler integration methodin Verilog HDL for differential equation solutions
+•SolvedKuramoto oscillator differential equationssimultaneously throughFPGA hardwareto achieve
+significant computational speedup over traditional CPU computation through the parallel processing architecture
+•Simulated and verified ourRTL designs, yielding aN²/N speedup factorcompared to serial implementation
+TECHNICAL SKILLS
+Programming
+/ Hardware C | C++| Python | VHDL | TCL | Verilog | 8051 Microcontroller | STM Microcontroller
+SoftwareQuartus | MATLAB | LTSpice | Fusion360 | Tera Term | Tempus | Joules RTLStudio | Vivado
+KEY COURSE
+Computer Science Computer Programming and Utilization, Programming for Data Science
+Mathematics Linear Algebra, Differential Equations, Calculus, Probability and Random Processes,
+Regression Analysis
+Electrical Power Engineering, Analog Circuits, Signal Processing, Digital Systems, Power
+Engineering-II, Microprocessors, Control Systems
+Entrepreneurship Introduction to Innovation & Entrepreneurship, Strategy and Leadership for
+Entrepreneurs
+EXTRA-CURRICULAR ACTIVITIES
+Leadership •Selected asVice Captainof the Career Guidance Cell at Shiv Nadar School, Noida,
+coordinating 20+career and college fairswith top universities for500+ students(2022)
+Technical
+•Competed inXLR8organized by the Electronics & Robotics Club, developing aRaspberry
+Pi Picobasedjoystick carto navigate a complex obstacle course under fifteen minutes(2024)
+•Took part inWinter in Data Science, where I performedRLbased modeling ongeopolitical
+disruptionsin global supply chains, usingmulti-agent deep RL (MARL) framework
+acrossmanufacturer-distributor-warehouse-retailer-customer echelons(2025)
+Basketball
+•Completed two semesters of training inBasketballunder National Sports Organization(2024)
+•AwardedBronze Medalin theIIT Bombay Freshiesta Basketball Tournament(2024)
+•SecuredFourth Positionin theIIT Bombay Basketball General Championship(2025)
+•Trained as one ofIITB’s top 20 basketball athletesin theInter IIT Pre-Camp(2025)
+International
+Exposure
+•Represented my school as part of a 5-student team at theSwiss Innovation Campin Geneva,
+Switzerland; attended advanced STEM workshops atCERNand other research centres(2018)
+ii
