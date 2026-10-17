@@ -29,6 +29,5 @@ IIT Bombay — Dual Degree (B.Tech + M.Tech) in Electrical Engineering. Strong a
 
 ## Activities
 
-- Leadership: Vice Captain of Career Guidance Cell at Shiv Nadar School; organized college fairs.
-- Sports: competitive basketball; participated in institute tournaments.
+- Basketball: Two-time Pre-Camp athlete for IIT Bombay; represented the college in multiple tournaments.
 
