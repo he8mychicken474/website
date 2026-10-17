@@ -1,8 +1,180 @@
 ---
-# Tell Jekyll to process this file
 ---
 
-/* Simple override/placeholder styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+:root {
+  --sky: #dff3ff;
+  --sky-deep: #7ec8ed;
+  --blue: #1677a8;
+  --ink: #182b38;
+  --muted: #526674;
+  --paper: #ffffff;
+  --line: #cfe4ef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.site-header {
+  background: rgba(255, 255, 255, 0.96);
+  border-top: 5px solid var(--sky-deep);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--ink);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+}
+
+.site-nav .page-link {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.site-nav .page-link:hover,
+a,
+a:visited {
+  color: var(--blue);
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--ink);
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.25rem;
+  letter-spacing: 0;
+}
+
+h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid var(--sky);
+  font-size: 1.35rem;
+}
+
+.page-content {
+  padding: 42px 0 56px;
+}
+
+.page-content .wrapper {
+  max-width: 860px;
+}
+
+.home h1#hi--im-siddhant {
+  margin-top: 2.5rem;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+}
+
+.home > p:first-of-type {
+  max-width: 680px;
+  color: var(--muted);
+  font-size: 1.15rem;
+}
+
+.resume-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+  padding: 1rem 1.2rem;
+  background: var(--sky);
+  border-left: 4px solid var(--blue);
+}
+
+.resume-intro p {
+  margin: 0;
+}
+
+.resume-download {
+  display: inline-block;
+  flex: 0 0 auto;
+  padding: 0.55rem 0.9rem;
+  border-radius: 4px;
+  background: var(--blue);
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resume-entry {
+  margin: 1.2rem 0 1.6rem;
+}
+
+.resume-entry h3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.15rem;
+  font-size: 1.05rem;
+}
+
+.resume-entry h3 span {
+  color: var(--blue);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.resume-entry .subtitle {
+  margin: 0 0 0.4rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.page-content ul {
+  margin-bottom: 1.1rem;
+}
+
+.page-content li {
+  margin: 0.35rem 0;
+}
+
+.page-content strong {
+  color: #183d53;
+}
+
+.site-footer {
+  background: #f2faff;
+  border-top: 1px solid var(--line);
+}
+
+@media screen and (max-width: 600px) {
+  .page-content {
+    padding-top: 28px;
+  }
+
+  .resume-intro,
+  .resume-entry h3 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .resume-entry h3 span {
+    text-align: left;
+  }
 }
