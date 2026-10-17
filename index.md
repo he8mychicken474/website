@@ -9,5 +9,3 @@ I'm an Electrical Engineering dual-degree student at IIT Bombay with a strong fo
 
 - [Resume]({{ '/resume/' | relative_url }})
 - [About]({{ '/about/' | relative_url }})
-
-Edit `index.md` and `_config.yml` to further customize this page.

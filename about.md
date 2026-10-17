@@ -3,6 +3,8 @@ layout: page
 title: "About"
 ---
 
+{% include profile-contact.html %}
+
 ## Summary
 
 Pursuing a dual degree in Electrical Engineering at IIT Bombay with a minor in Artificial Intelligence and Data Science. Experienced in digital design, embedded systems, FPGA development, and AI-driven automation.

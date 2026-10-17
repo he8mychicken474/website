@@ -5,6 +5,8 @@ permalink: /resume/
 class: resume-page
 ---
 
+{% include profile-contact.html %}
+
 <div class="resume-intro">
   <p>Electrical Engineering dual-degree student at IIT Bombay, focused on digital design, embedded systems, FPGA acceleration, and applied AI.</p>
   <a class="resume-download" href="{{ '/assets/files/resume_core.pdf' | relative_url }}" target="_blank" rel="noopener">Download PDF</a>
