@@ -1,4 +1,6 @@
 name: Build and deploy Jekyll site to gh-pages
+permissions:
+  contents: write
 
 on:
   push:
