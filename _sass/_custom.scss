@@ -78,15 +78,48 @@ h2 {
   max-width: 860px;
 }
 
-.home h1#hi--im-siddhant {
-  margin-top: 2.5rem;
-  font-size: clamp(2.4rem, 5vw, 4rem);
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 2rem 0 1rem;
 }
 
-.home > p:first-of-type {
-  max-width: 680px;
+.home-hero h1 {
+  margin: 0 0 1rem;
+  font-size: 2.8rem;
+}
+
+.home-hero-copy p {
   color: var(--muted);
   font-size: 1.15rem;
+}
+
+.home-hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.65rem 1rem;
+  border-radius: 4px;
+  background: var(--blue);
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-hero-link:hover {
+  background: #105f88;
+}
+
+.home-portrait {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border: 5px solid var(--sky);
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 14px 34px rgba(24, 43, 56, 0.12);
 }
 
 .resume-intro {
@@ -177,6 +210,21 @@ h2 {
 @media screen and (max-width: 600px) {
   .page-content {
     padding-top: 28px;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-top: 1rem;
+  }
+
+  .home-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-portrait {
+    width: min(100%, 320px);
+    justify-self: center;
   }
 
   .resume-intro,
