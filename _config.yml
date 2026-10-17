@@ -1,6 +1,6 @@
-title: "Your Name"
+title: "Siddhant"
 email: "you@example.com"
 description: "Personal site built with Jekyll"
-baseurl: ""
-url: "https://USERNAME.github.io"
+baseurl: "/website"
+url: "https://he8mychicken474.github.io"
 theme: minima
